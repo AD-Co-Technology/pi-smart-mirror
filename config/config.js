@@ -108,7 +108,7 @@ let config = {
 		{
     module: "MMM-WeeklySchedule",
     position: "top_left",
-    header: "Hermione's classes",
+    header: "Andrew's classes",
     config: {
         schedule: {
             timeslots: [ "8:00", "10:00", "12:00", "14:00", "16:00" ],
