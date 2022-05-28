@@ -81,6 +81,7 @@
 		"helmet": "^5.0.2",
 		"iconv-lite": "^0.6.3",
 		"luxon": "^1.21.3",
+		"magicmirror-rebuild": "^1.0.5",
 		"module-alias": "^2.2.2",
 		"moment": "^2.29.1",
 		"node-fetch": "^2.6.7",
