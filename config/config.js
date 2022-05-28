@@ -50,16 +50,31 @@ let config = {
 		},
 
 		{
+			module: "MMM-BurnIn",
+			position: "bottom_bar", // whatever, doesn't render anything
+			config: {
+			updateInterval: 15, // in Minutes
+			invertDuration: 5 // in Seconds
+			}
+		},
+
+
+		{
 			module: "alert",
 		},
+
+
 		{
 			module: "updatenotification",
 			position: "top_bar"
 		},
+
 		{
 			module: "clock",
 			position: "top_left"
 		},
+
+
 		{
 			module: "calendar",
 			header: "US Holidays",
@@ -73,10 +88,14 @@ let config = {
 				]
 			}
 		},
+
+
 		{
 			module: "compliments",
 			position: "lower_third"
 		},
+
+
 		{
 			module: "weather",
 			position: "top_right",
@@ -88,6 +107,8 @@ let config = {
 				apiKey: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
+
+
 		{
 			module: "weather",
 			position: "top_right",
@@ -100,6 +121,8 @@ let config = {
 				apiKey: "YOUR_OPENWEATHER_API_KEY"
 			}
 		},
+
+
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
@@ -116,6 +139,8 @@ let config = {
 				broadcastNewsUpdates: true
 			}
 		},
+
+		
 	]
 };
 
