@@ -14,5 +14,8 @@
 ## Challenges
   *
   
-## What's next?
-  *
+## Features to implement:
+  * 1. Calendar, schedule 
+  * 2. Spotfy now playing
+  * 3. Alexa, Google Assistant 
+  * 4. Voice control
